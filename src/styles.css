@@ -1,0 +1,38 @@
+html, body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+.message_right{
+    padding: 5px;
+    background-color: #D9D9D9;
+    text-align: right;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 5px 0px 5px 0px;
+}
+
+.message_left{
+    padding: 5px;
+    background-color: #A03C78;
+    text-align: left;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 5px 0px 5px 0px;
+    color: white;
+}
+
+.message_left_button{
+    padding: 0px;
+    text-align: left;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 5px 0px 5px 0px;
+}
+
+.message_input{
+    position: fixed;
+    width: 98%;
+    bottom: 10px;   
+}
