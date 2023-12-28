@@ -7,4 +7,5 @@ export default defineConfig({
     publicPath: '/'
   },
   plugins: [react()],
+  base: "/assistant_frontend/",
 })
