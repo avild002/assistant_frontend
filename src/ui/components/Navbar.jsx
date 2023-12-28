@@ -19,17 +19,17 @@ export const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="home">
+              <a class="nav-link active" aria-current="page" href="/#/home">
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="settings">
+              <a class="nav-link" href="/#/settings">
                 Settings
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="conversation">
+              <a class="nav-link" href="/#/conversation">
                 Conversation
               </a>
             </li>
@@ -40,7 +40,7 @@ export const Navbar = () => {
             </li>
           </ul>
           <span class="navbar-text me-2">Arturo</span>
-          <a href="http://localhost:5173/login">
+          <a href="/#/login">
             <button class="btn btn-outline-success">Logout</button>
           </a>
         </div>
