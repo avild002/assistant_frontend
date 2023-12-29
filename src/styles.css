@@ -151,3 +151,9 @@ html, body, #root{
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
+
+  @media screen and (max-width: 767px) {
+    input, select, textarea {
+         font-size: 16px !important;
+    }
+}

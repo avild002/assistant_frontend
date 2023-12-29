@@ -2,7 +2,7 @@ export const Settings = () => {
   return (
     <>
       <div class="row">
-        <div class="col-3 col-s-3 menu">
+        <div class="col-3 col-s-12">
           <div class="settings">
             <p class="title_section_dark">Configura tu asistente</p>
             <div class="mb-3">
