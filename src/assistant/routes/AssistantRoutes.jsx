@@ -1,14 +1,14 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 
-import { Navbar } from "../../ui"
+import { Navbar } from "../../ui";
 
-import { Home,Conversation,Settings,Profile } from "../pages";
+import { Home, Conversation, Settings, Profile } from "../pages";
 
 export const AssistantRoutes = () => {
   return (
     <>
-     <Navbar/>
-     <Routes>
+      <Navbar />
+      <Routes>
         <Route path="home" element={<Home />} />
         <Route path="settings" element={<Settings />} />
         <Route path="conversation" element={<Conversation />} />
@@ -16,5 +16,5 @@ export const AssistantRoutes = () => {
         <Route path="/" element={<Navigate to="/home" />} />
       </Routes>
     </>
-  )
-}
+  );
+};
